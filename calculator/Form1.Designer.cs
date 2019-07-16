@@ -69,7 +69,7 @@
             this.add.TabIndex = 3;
             this.add.Text = "+";
             this.add.UseVisualStyleBackColor = true;
-            this.add.Click += new System.EventHandler(this.Add_Click);
+            this.add.Click += new System.EventHandler(this.CalculateClick);
             // 
             // sub
             // 
@@ -79,7 +79,7 @@
             this.sub.TabIndex = 4;
             this.sub.Text = "-";
             this.sub.UseVisualStyleBackColor = true;
-            this.sub.Click += new System.EventHandler(this.Sub_Click);
+            this.sub.Click += new System.EventHandler(this.CalculateClick);
             // 
             // div
             // 
@@ -89,6 +89,7 @@
             this.div.TabIndex = 5;
             this.div.Text = "/";
             this.div.UseVisualStyleBackColor = true;
+            this.div.Click += new System.EventHandler(this.CalculateClick);
             // 
             // mult
             // 
@@ -98,6 +99,7 @@
             this.mult.TabIndex = 6;
             this.mult.Text = "*";
             this.mult.UseVisualStyleBackColor = true;
+            this.mult.Click += new System.EventHandler(this.CalculateClick);
             // 
             // Form1
             // 

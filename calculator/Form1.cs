@@ -37,5 +37,42 @@ namespace calculator
             double result = firstNum - secondNum;
             OutputVar.Text = result.ToString();
         }
+
+        private void Mult_Click(object sender, EventArgs e)
+        {
+            double firstNum = Convert.ToDouble(InputVar1.Text);
+            double secondNum = Convert.ToDouble(InputVar2.Text);
+            double result = firstNum * secondNum;
+            OutputVar.Text = result.ToString();
+        }
+
+        private void Div_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CalculateClick(object sender, EventArgs e)
+        {
+            double firstNum = Convert.ToDouble(InputVar1.Text);
+            double secondNum = Convert.ToDouble(InputVar2.Text);
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "add":
+                    result = firstNum + secondNum;
+                    break;
+                case "sub":
+                    result = firstNum - secondNum;
+                    break;
+                case "mult":
+                    result = firstNum * secondNum;
+                    break;
+                case "div":
+                    result = firstNum / secondNum;
+                    break;
+                default: throw new Exception("Неопределенная операция");
+            }
+            OutputVar.Text = result.ToString();
+        }
     }
 }
