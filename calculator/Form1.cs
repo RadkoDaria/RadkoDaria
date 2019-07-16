@@ -17,36 +17,7 @@ namespace calculator
             InitializeComponent();
         }
 
-        private void Add_Click(object sender, EventArgs e)
-        {
-            double firstNum = Convert.ToDouble(InputVar1.Text);
-            double secondNum = Convert.ToDouble(InputVar2.Text);
-            double result = firstNum + secondNum;
-            OutputVar.Text = result.ToString();
-        }
-
         private void InputVar1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Sub_Click(object sender, EventArgs e)
-        {
-            double firstNum = Convert.ToDouble(InputVar1.Text);
-            double secondNum = Convert.ToDouble(InputVar2.Text);
-            double result = firstNum - secondNum;
-            OutputVar.Text = result.ToString();
-        }
-
-        private void Mult_Click(object sender, EventArgs e)
-        {
-            double firstNum = Convert.ToDouble(InputVar1.Text);
-            double secondNum = Convert.ToDouble(InputVar2.Text);
-            double result = firstNum * secondNum;
-            OutputVar.Text = result.ToString();
-        }
-
-        private void Div_Click(object sender, EventArgs e)
         {
 
         }
@@ -55,23 +26,10 @@ namespace calculator
         {
             double firstNum = Convert.ToDouble(InputVar1.Text);
             double secondNum = Convert.ToDouble(InputVar2.Text);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "add":
-                    result = firstNum + secondNum;
-                    break;
-                case "sub":
-                    result = firstNum - secondNum;
-                    break;
-                case "mult":
-                    result = firstNum * secondNum;
-                    break;
-                case "div":
-                    result = firstNum / secondNum;
-                    break;
-                default: throw new Exception("Неопределенная операция");
-            }
+
+            var Calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = Calculator.Calculate(firstNum, secondNum);
+
             OutputVar.Text = result.ToString();
         }
     }
