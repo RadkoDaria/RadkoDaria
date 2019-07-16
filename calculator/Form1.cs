@@ -16,5 +16,26 @@ namespace calculator
         {
             InitializeComponent();
         }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            double firstNum = Convert.ToDouble(InputVar1.Text);
+            double secondNum = Convert.ToDouble(InputVar2.Text);
+            double result = firstNum + secondNum;
+            OutputVar.Text = result.ToString();
+        }
+
+        private void InputVar1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Sub_Click(object sender, EventArgs e)
+        {
+            double firstNum = Convert.ToDouble(InputVar1.Text);
+            double secondNum = Convert.ToDouble(InputVar2.Text);
+            double result = firstNum - secondNum;
+            OutputVar.Text = result.ToString();
+        }
     }
 }
