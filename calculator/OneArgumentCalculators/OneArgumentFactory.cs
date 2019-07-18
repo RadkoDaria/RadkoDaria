@@ -12,6 +12,9 @@ namespace calculator.OneArgumentCalculators
                     return new Sin();
                 case "Cos":
                     return new Cos();
+                case "Tan":
+                    return new Tan();
+
                 default: throw new Exception("Неопределенная операция");
             }
         }

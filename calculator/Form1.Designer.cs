@@ -37,6 +37,11 @@
             this.mult = new System.Windows.Forms.Button();
             this.Sin = new System.Windows.Forms.Button();
             this.Cos = new System.Windows.Forms.Button();
+            this.Tan = new System.Windows.Forms.Button();
+            this.Lnx = new System.Windows.Forms.Button();
+            this.Exp = new System.Windows.Forms.Button();
+            this.ArcSin = new System.Windows.Forms.Button();
+            this.ArcCos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputVar1
@@ -123,11 +128,62 @@
             this.Cos.UseVisualStyleBackColor = true;
             this.Cos.Click += new System.EventHandler(this.Calculator2Click);
             // 
+            // Tan
+            // 
+            this.Tan.Location = new System.Drawing.Point(434, 169);
+            this.Tan.Name = "Tan";
+            this.Tan.Size = new System.Drawing.Size(75, 23);
+            this.Tan.TabIndex = 9;
+            this.Tan.Text = "tan";
+            this.Tan.UseVisualStyleBackColor = true;
+            this.Tan.Click += new System.EventHandler(this.Calculator2Click);
+            // 
+            // Lnx
+            // 
+            this.Lnx.Location = new System.Drawing.Point(434, 210);
+            this.Lnx.Name = "Lnx";
+            this.Lnx.Size = new System.Drawing.Size(75, 23);
+            this.Lnx.TabIndex = 10;
+            this.Lnx.Text = "ln(x)";
+            this.Lnx.UseVisualStyleBackColor = true;
+            // 
+            // Exp
+            // 
+            this.Exp.Location = new System.Drawing.Point(532, 169);
+            this.Exp.Name = "Exp";
+            this.Exp.Size = new System.Drawing.Size(75, 23);
+            this.Exp.TabIndex = 11;
+            this.Exp.Text = "e^x";
+            this.Exp.UseVisualStyleBackColor = true;
+            // 
+            // ArcSin
+            // 
+            this.ArcSin.Location = new System.Drawing.Point(532, 210);
+            this.ArcSin.Name = "ArcSin";
+            this.ArcSin.Size = new System.Drawing.Size(75, 23);
+            this.ArcSin.TabIndex = 12;
+            this.ArcSin.Text = "Arcsin(x)";
+            this.ArcSin.UseVisualStyleBackColor = true;
+            // 
+            // ArcCos
+            // 
+            this.ArcCos.Location = new System.Drawing.Point(487, 239);
+            this.ArcCos.Name = "ArcCos";
+            this.ArcCos.Size = new System.Drawing.Size(75, 23);
+            this.ArcCos.TabIndex = 13;
+            this.ArcCos.Text = "Arccos(x)";
+            this.ArcCos.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ArcCos);
+            this.Controls.Add(this.ArcSin);
+            this.Controls.Add(this.Exp);
+            this.Controls.Add(this.Lnx);
+            this.Controls.Add(this.Tan);
             this.Controls.Add(this.Cos);
             this.Controls.Add(this.Sin);
             this.Controls.Add(this.mult);
@@ -156,6 +212,11 @@
         private System.Windows.Forms.Button mult;
         private System.Windows.Forms.Button Sin;
         private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Tan;
+        private System.Windows.Forms.Button Lnx;
+        private System.Windows.Forms.Button Exp;
+        private System.Windows.Forms.Button ArcSin;
+        private System.Windows.Forms.Button ArcCos;
     }
 }
 
