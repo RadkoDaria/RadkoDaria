@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace calculator
+namespace calculator.OneArgumentCalculators
 {
-    class Degree2
+   public class Degree2
     {
+        public double Calculate(double firstValue)
+        {
+            return Math.Pow(firstValue, 2);
+        }
     }
 }
