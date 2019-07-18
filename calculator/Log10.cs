@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace calculator
+namespace calculator.OneArgumentCalculators
 {
-    class log10
+    public class Log10 : IOneArgumentCalculator
+
     {
+        public double Calculate(double firstValue)
+        {
+            return Math.Log10(firstValue);
+        }
     }
 }
