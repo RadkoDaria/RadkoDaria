@@ -11,7 +11,7 @@ namespace calculator.OneArgumentCalculators
     {
         public double Calculate(double firstValue)
         {
-            return Math.Log10(firstValue);
+            return Math.Log(firstValue);
         }
     }
 }

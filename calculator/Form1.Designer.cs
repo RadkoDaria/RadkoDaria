@@ -42,11 +42,16 @@
             this.Exp = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
             this.Arccos = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputVar1
             // 
-            this.InputVar1.Location = new System.Drawing.Point(132, 90);
+            this.InputVar1.Location = new System.Drawing.Point(36, 27);
             this.InputVar1.Name = "InputVar1";
             this.InputVar1.Size = new System.Drawing.Size(100, 20);
             this.InputVar1.TabIndex = 0;
@@ -54,7 +59,7 @@
             // 
             // InputVar2
             // 
-            this.InputVar2.Location = new System.Drawing.Point(257, 90);
+            this.InputVar2.Location = new System.Drawing.Point(156, 27);
             this.InputVar2.Name = "InputVar2";
             this.InputVar2.Size = new System.Drawing.Size(100, 20);
             this.InputVar2.TabIndex = 1;
@@ -62,7 +67,7 @@
             // OutputVar
             // 
             this.OutputVar.AutoSize = true;
-            this.OutputVar.Location = new System.Drawing.Point(390, 90);
+            this.OutputVar.Location = new System.Drawing.Point(277, 34);
             this.OutputVar.Name = "OutputVar";
             this.OutputVar.Size = new System.Drawing.Size(42, 13);
             this.OutputVar.TabIndex = 2;
@@ -70,7 +75,7 @@
             // 
             // add
             // 
-            this.add.Location = new System.Drawing.Point(138, 169);
+            this.add.Location = new System.Drawing.Point(36, 69);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(75, 23);
             this.add.TabIndex = 3;
@@ -80,7 +85,7 @@
             // 
             // sub
             // 
-            this.sub.Location = new System.Drawing.Point(228, 169);
+            this.sub.Location = new System.Drawing.Point(117, 69);
             this.sub.Name = "sub";
             this.sub.Size = new System.Drawing.Size(75, 23);
             this.sub.TabIndex = 4;
@@ -90,7 +95,7 @@
             // 
             // div
             // 
-            this.div.Location = new System.Drawing.Point(228, 210);
+            this.div.Location = new System.Drawing.Point(279, 69);
             this.div.Name = "div";
             this.div.Size = new System.Drawing.Size(75, 23);
             this.div.TabIndex = 5;
@@ -100,7 +105,7 @@
             // 
             // mult
             // 
-            this.mult.Location = new System.Drawing.Point(138, 210);
+            this.mult.Location = new System.Drawing.Point(198, 69);
             this.mult.Name = "mult";
             this.mult.Size = new System.Drawing.Size(75, 23);
             this.mult.TabIndex = 6;
@@ -110,7 +115,7 @@
             // 
             // Sin
             // 
-            this.Sin.Location = new System.Drawing.Point(333, 169);
+            this.Sin.Location = new System.Drawing.Point(36, 98);
             this.Sin.Name = "Sin";
             this.Sin.Size = new System.Drawing.Size(75, 23);
             this.Sin.TabIndex = 7;
@@ -120,7 +125,7 @@
             // 
             // Cos
             // 
-            this.Cos.Location = new System.Drawing.Point(333, 210);
+            this.Cos.Location = new System.Drawing.Point(117, 98);
             this.Cos.Name = "Cos";
             this.Cos.Size = new System.Drawing.Size(75, 23);
             this.Cos.TabIndex = 8;
@@ -130,7 +135,7 @@
             // 
             // Tan
             // 
-            this.Tan.Location = new System.Drawing.Point(434, 169);
+            this.Tan.Location = new System.Drawing.Point(198, 98);
             this.Tan.Name = "Tan";
             this.Tan.Size = new System.Drawing.Size(75, 23);
             this.Tan.TabIndex = 9;
@@ -140,7 +145,7 @@
             // 
             // Ln
             // 
-            this.Ln.Location = new System.Drawing.Point(434, 210);
+            this.Ln.Location = new System.Drawing.Point(36, 127);
             this.Ln.Name = "Ln";
             this.Ln.Size = new System.Drawing.Size(75, 23);
             this.Ln.TabIndex = 10;
@@ -150,7 +155,7 @@
             // 
             // Exp
             // 
-            this.Exp.Location = new System.Drawing.Point(532, 169);
+            this.Exp.Location = new System.Drawing.Point(279, 98);
             this.Exp.Name = "Exp";
             this.Exp.Size = new System.Drawing.Size(75, 23);
             this.Exp.TabIndex = 11;
@@ -160,7 +165,7 @@
             // 
             // Arcsin
             // 
-            this.Arcsin.Location = new System.Drawing.Point(532, 210);
+            this.Arcsin.Location = new System.Drawing.Point(198, 127);
             this.Arcsin.Name = "Arcsin";
             this.Arcsin.Size = new System.Drawing.Size(75, 23);
             this.Arcsin.TabIndex = 12;
@@ -170,7 +175,7 @@
             // 
             // Arccos
             // 
-            this.Arccos.Location = new System.Drawing.Point(487, 239);
+            this.Arccos.Location = new System.Drawing.Point(117, 127);
             this.Arccos.Name = "Arccos";
             this.Arccos.Size = new System.Drawing.Size(75, 23);
             this.Arccos.TabIndex = 13;
@@ -178,11 +183,61 @@
             this.Arccos.UseVisualStyleBackColor = true;
             this.Arccos.Click += new System.EventHandler(this.Calculator2Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(279, 127);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(229, 257);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(127, 326);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(275, 335);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 17;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(356, 268);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 18;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Exp);
@@ -221,6 +276,11 @@
         private System.Windows.Forms.Button Exp;
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button Arccos;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 
