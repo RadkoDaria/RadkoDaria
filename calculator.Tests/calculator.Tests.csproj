@@ -48,11 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentCalculators\ArccosTest.cs" />
+    <Compile Include="OneArgumentCalculators\ArcsinTest.cs" />
+    <Compile Include="OneArgumentCalculators\CosTest.cs" />
+    <Compile Include="OneArgumentCalculators\Degree2Test.cs" />
+    <Compile Include="OneArgumentCalculators\ExpTest.cs" />
+    <Compile Include="OneArgumentCalculators\LnTest.cs" />
+    <Compile Include="OneArgumentCalculators\Log10Test.cs" />
+    <Compile Include="OneArgumentCalculators\Log2Test.cs" />
+    <Compile Include="OneArgumentCalculators\SinTest.cs" />
+    <Compile Include="OneArgumentCalculators\TanTest.cs" />
+    <Compile Include="OneArgumentCalculators\TenDegreeXTest.cs" />
+    <Compile Include="OneArgumentCalculators\TwoPowerXTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwoArgumentCalculatorsTest\AdderTest.cs" />
-    <Compile Include="TwoArgumentCalculatorsTest\DividerTest.cs" />
-    <Compile Include="TwoArgumentCalculatorsTest\MultiplyerTest.cs" />
-    <Compile Include="TwoArgumentCalculatorsTest\SubtracterTest.cs" />
+    <Compile Include="TwoArgumentCalculators\AdderTest.cs" />
+    <Compile Include="TwoArgumentCalculators\DividerTest.cs" />
+    <Compile Include="TwoArgumentCalculators\MultiplyerTest.cs" />
+    <Compile Include="TwoArgumentCalculators\SubtracterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\calculator\calculator.csproj">
@@ -63,9 +75,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArgumentCalculatorsTest\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
