@@ -35,8 +35,6 @@
             this.sub = new System.Windows.Forms.Button();
             this.div = new System.Windows.Forms.Button();
             this.mult = new System.Windows.Forms.Button();
-            this.Sin = new System.Windows.Forms.Button();
-            this.Cos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputVar1
@@ -103,33 +101,11 @@
             this.mult.UseVisualStyleBackColor = true;
             this.mult.Click += new System.EventHandler(this.CalculateClick);
             // 
-            // Sin
-            // 
-            this.Sin.Location = new System.Drawing.Point(333, 169);
-            this.Sin.Name = "Sin";
-            this.Sin.Size = new System.Drawing.Size(75, 23);
-            this.Sin.TabIndex = 7;
-            this.Sin.Text = "sin";
-            this.Sin.UseVisualStyleBackColor = true;
-            this.Sin.Click += new System.EventHandler(this.Calculator2Click);
-            // 
-            // Cos
-            // 
-            this.Cos.Location = new System.Drawing.Point(333, 210);
-            this.Cos.Name = "Cos";
-            this.Cos.Size = new System.Drawing.Size(75, 23);
-            this.Cos.TabIndex = 8;
-            this.Cos.Text = "cos";
-            this.Cos.UseVisualStyleBackColor = true;
-            this.Cos.Click += new System.EventHandler(this.Calculator2Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Cos);
-            this.Controls.Add(this.Sin);
             this.Controls.Add(this.mult);
             this.Controls.Add(this.div);
             this.Controls.Add(this.sub);
@@ -139,7 +115,6 @@
             this.Controls.Add(this.InputVar1);
             this.Name = "Form1";
             this.Text = "v";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,8 +129,6 @@
         private System.Windows.Forms.Button sub;
         private System.Windows.Forms.Button div;
         private System.Windows.Forms.Button mult;
-        private System.Windows.Forms.Button Sin;
-        private System.Windows.Forms.Button Cos;
     }
 }
 

@@ -24,26 +24,11 @@ namespace calculator
 
         private void CalculateClick(object sender, EventArgs e)
         {
-            double firstNumber = Convert.ToDouble(InputVar1.Text);
-            double secondNumber = Convert.ToDouble(InputVar2.Text);
+            double firstNum = Convert.ToDouble(InputVar1.Text);
+            double secondNum = Convert.ToDouble(InputVar2.Text);
 
             var Calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = Calculator.Calculate(firstNumber, secondNumber);
-
-            OutputVar.Text = result.ToString();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Calculator2Click(object sender, EventArgs e)
-        {
-            double firstNumber = Convert.ToDouble(InputVar1.Text);
-
-            var Calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            double result = Calculator.Calculate(firstNumber);
+            double result = Calculator.Calculate(firstNum, secondNum);
 
             OutputVar.Text = result.ToString();
         }
