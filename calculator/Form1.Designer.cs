@@ -41,7 +41,7 @@
             this.Ln = new System.Windows.Forms.Button();
             this.Exp = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
-            this.ArcCos = new System.Windows.Forms.Button();
+            this.Arccos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputVar1
@@ -168,21 +168,22 @@
             this.Arcsin.UseVisualStyleBackColor = true;
             this.Arcsin.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // ArcCos
+            // Arccos
             // 
-            this.ArcCos.Location = new System.Drawing.Point(487, 239);
-            this.ArcCos.Name = "ArcCos";
-            this.ArcCos.Size = new System.Drawing.Size(75, 23);
-            this.ArcCos.TabIndex = 13;
-            this.ArcCos.Text = "Arccos(x)";
-            this.ArcCos.UseVisualStyleBackColor = true;
+            this.Arccos.Location = new System.Drawing.Point(487, 239);
+            this.Arccos.Name = "Arccos";
+            this.Arccos.Size = new System.Drawing.Size(75, 23);
+            this.Arccos.TabIndex = 13;
+            this.Arccos.Text = "Arccos(x)";
+            this.Arccos.UseVisualStyleBackColor = true;
+            this.Arccos.Click += new System.EventHandler(this.Calculator2Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.ArcCos);
+            this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Exp);
             this.Controls.Add(this.Ln);
@@ -219,7 +220,7 @@
         private System.Windows.Forms.Button Ln;
         private System.Windows.Forms.Button Exp;
         private System.Windows.Forms.Button Arcsin;
-        private System.Windows.Forms.Button ArcCos;
+        private System.Windows.Forms.Button Arccos;
     }
 }
 

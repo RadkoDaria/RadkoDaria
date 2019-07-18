@@ -20,6 +20,8 @@ namespace calculator.OneArgumentCalculators
                     return new Exp();
                 case "Arcsin":
                     return new Arcsin();
+                case "Arccos":
+                    return new Arccos();
 
 
                 default: throw new Exception("Неопределенная операция");

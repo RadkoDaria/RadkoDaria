@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arccos.cs" />
     <Compile Include="Arcsin.cs" />
     <Compile Include="Exp.cs" />
     <Compile Include="Ln.cs" />
