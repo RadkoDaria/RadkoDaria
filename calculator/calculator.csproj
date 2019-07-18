@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exp.cs" />
+    <Compile Include="Ln.cs" />
     <Compile Include="Tan.cs" />
     <Compile Include="TwoArgumentCalculators\Adder.cs" />
     <Compile Include="OneArgumentCalculators\Cos.cs" />
