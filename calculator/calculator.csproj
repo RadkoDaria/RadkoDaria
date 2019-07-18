@@ -46,15 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arccos.cs" />
-    <Compile Include="Arcsin.cs" />
-    <Compile Include="Degree2.cs" />
-    <Compile Include="Exp.cs" />
-    <Compile Include="Ln.cs" />
-    <Compile Include="Log10.cs" />
-    <Compile Include="Log2.cs" />
+    <Compile Include="OneArgumentCalculators\Arccos.cs" />
+    <Compile Include="OneArgumentCalculators\Arcsin.cs" />
+    <Compile Include="OneArgumentCalculators\Degree2.cs" />
+    <Compile Include="OneArgumentCalculators\Exp.cs" />
+    <Compile Include="OneArgumentCalculators\Ln.cs" />
+    <Compile Include="OneArgumentCalculators\Log10.cs" />
+    <Compile Include="OneArgumentCalculators\Log2.cs" />
+    <Compile Include="OneArgumentCalculators\TenDegreeX.cs" />
     <Compile Include="OneArgumentCalculators\TwoPowerX.cs" />
-    <Compile Include="Tan.cs" />
+    <Compile Include="OneArgumentCalculators\Tan.cs" />
     <Compile Include="TwoArgumentCalculators\Adder.cs" />
     <Compile Include="OneArgumentCalculators\Cos.cs" />
     <Compile Include="TwoArgumentCalculators\Divider.cs" />
