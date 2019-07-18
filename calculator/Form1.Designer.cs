@@ -40,7 +40,7 @@
             this.Tan = new System.Windows.Forms.Button();
             this.Ln = new System.Windows.Forms.Button();
             this.Exp = new System.Windows.Forms.Button();
-            this.ArcSin = new System.Windows.Forms.Button();
+            this.Arcsin = new System.Windows.Forms.Button();
             this.ArcCos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -156,15 +156,17 @@
             this.Exp.TabIndex = 11;
             this.Exp.Text = "e^x";
             this.Exp.UseVisualStyleBackColor = true;
+            this.Exp.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // ArcSin
+            // Arcsin
             // 
-            this.ArcSin.Location = new System.Drawing.Point(532, 210);
-            this.ArcSin.Name = "ArcSin";
-            this.ArcSin.Size = new System.Drawing.Size(75, 23);
-            this.ArcSin.TabIndex = 12;
-            this.ArcSin.Text = "Arcsin(x)";
-            this.ArcSin.UseVisualStyleBackColor = true;
+            this.Arcsin.Location = new System.Drawing.Point(532, 210);
+            this.Arcsin.Name = "Arcsin";
+            this.Arcsin.Size = new System.Drawing.Size(75, 23);
+            this.Arcsin.TabIndex = 12;
+            this.Arcsin.Text = "Arcsin(x)";
+            this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.Calculator2Click);
             // 
             // ArcCos
             // 
@@ -181,7 +183,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ArcCos);
-            this.Controls.Add(this.ArcSin);
+            this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Exp);
             this.Controls.Add(this.Ln);
             this.Controls.Add(this.Tan);
@@ -216,7 +218,7 @@
         private System.Windows.Forms.Button Tan;
         private System.Windows.Forms.Button Ln;
         private System.Windows.Forms.Button Exp;
-        private System.Windows.Forms.Button ArcSin;
+        private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button ArcCos;
     }
 }
