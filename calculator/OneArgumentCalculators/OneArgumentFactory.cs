@@ -22,6 +22,14 @@ namespace calculator.OneArgumentCalculators
                     return new Arcsin();
                 case "Arccos":
                     return new Arccos();
+                case "Log10":
+                    return new Log10();
+                case "Log2":
+                    return new Log2();
+                case "Degree2":
+                    return new Degree2();
+                case "TwoPowerX":
+                    return new TwoPowerX();
 
 
                 default: throw new Exception("Неопределенная операция");
