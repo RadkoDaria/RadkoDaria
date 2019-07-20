@@ -1,4 +1,6 @@
-﻿namespace calculator.OneArgumentCalculators
+﻿using System;
+
+namespace calculator.OneArgumentCalculators
 { 
     /// <summary>
     /// Count SquareRoot
@@ -16,7 +18,7 @@
         /// </returns>
         public double Calculate(double firstValue)
         {
-            return firstValue * firstValue;
+            return Math.Sqrt(firstValue);
         }
     }
 }

@@ -65,11 +65,15 @@
     <Compile Include="OneArgumentCalculators\Log10Test.cs" />
     <Compile Include="OneArgumentCalculators\Log2Test.cs" />
     <Compile Include="OneArgumentCalculators\Log2TestCase.cs" />
+    <Compile Include="OneArgumentCalculators\RadiansTestCase.cs" />
     <Compile Include="OneArgumentCalculators\SinTest.cs" />
+    <Compile Include="OneArgumentCalculators\SquareRootTestCase.cs" />
     <Compile Include="OneArgumentCalculators\TanTest.cs" />
     <Compile Include="OneArgumentCalculators\TanTestCase.cs" />
     <Compile Include="OneArgumentCalculators\TenDegreeXTest.cs" />
+    <Compile Include="OneArgumentCalculators\TenDegreeXTestCase.cs" />
     <Compile Include="OneArgumentCalculators\TwoPowerXTest.cs" />
+    <Compile Include="OneArgumentCalculators\TwoPowerXTestCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentCalculators\AdderTest.cs" />
     <Compile Include="TwoArgumentCalculators\DividerTest.cs" />
