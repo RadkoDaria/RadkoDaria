@@ -49,18 +49,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArgumentCalculators\ArccosTest.cs" />
+    <Compile Include="OneArgumentCalculators\ArccosTestCase.cs" />
     <Compile Include="OneArgumentCalculators\ArcsinTest.cs" />
+    <Compile Include="OneArgumentCalculators\ArcsinTestCase.cs" />
+    <Compile Include="OneArgumentCalculators\CTanTestCase.cs" />
     <Compile Include="OneArgumentCalculators\CosTest.cs" />
     <Compile Include="OneArgumentCalculators\CosTestCase.cs" />
     <Compile Include="OneArgumentCalculators\Degree2Test.cs" />
+    <Compile Include="OneArgumentCalculators\Degree2TestCase.cs" />
     <Compile Include="OneArgumentCalculators\ExpTest.cs" />
+    <Compile Include="OneArgumentCalculators\ExpTestCase.cs" />
     <Compile Include="OneArgumentCalculators\LnTest.cs" />
     <Compile Include="OneArgumentCalculators\LnTestCase.cs" />
     <Compile Include="OneArgumentCalculators\Log10TestCase.cs" />
     <Compile Include="OneArgumentCalculators\Log10Test.cs" />
     <Compile Include="OneArgumentCalculators\Log2Test.cs" />
+    <Compile Include="OneArgumentCalculators\Log2TestCase.cs" />
     <Compile Include="OneArgumentCalculators\SinTest.cs" />
     <Compile Include="OneArgumentCalculators\TanTest.cs" />
+    <Compile Include="OneArgumentCalculators\TanTestCase.cs" />
     <Compile Include="OneArgumentCalculators\TenDegreeXTest.cs" />
     <Compile Include="OneArgumentCalculators\TwoPowerXTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
