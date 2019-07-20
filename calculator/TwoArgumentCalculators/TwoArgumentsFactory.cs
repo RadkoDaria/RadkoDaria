@@ -27,7 +27,8 @@ namespace calculator.TwoArgumentCalculators
                     return new Min();
                 case "Max":
                     return new Max();
-
+                case "sqr":
+                    return new RootExtraction();
                 default: throw new Exception("Неопределенная операция");
             }
         }

@@ -1,5 +1,4 @@
-﻿using calculator.TwoArgumentCalculators;
-
+﻿
 namespace calculator.TwoArgumentCalculators
 {
     /// <summary>
@@ -21,7 +20,7 @@ namespace calculator.TwoArgumentCalculators
         /// </returns>
         public double Calculate(double firstValue, double secondValue)
         {
-            return (firstValue * secondValue) / 2;
+            return (firstValue + secondValue) / 2;
         }
     }
 }

@@ -32,8 +32,6 @@ namespace calculator.OneArgumentCalculators
                     return new TwoPowerX();
                 case "CTan":
                     return new CTan();
-                case "RootExtraction":
-                    return new RootExtraction();
                 case "Radians":
                     return new Radians();
 

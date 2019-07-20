@@ -55,14 +55,13 @@
     <Compile Include="OneArgumentCalculators\Log10.cs" />
     <Compile Include="OneArgumentCalculators\Log2.cs" />
     <Compile Include="OneArgumentCalculators\Radians.cs" />
-    <Compile Include="OneArgumentCalculators\RootExtraction.cs" />
-    <Compile Include="OneArgumentCalculators\SquareRoot.cs" />
     <Compile Include="OneArgumentCalculators\TenDegreeX.cs" />
     <Compile Include="OneArgumentCalculators\TwoPowerX.cs" />
     <Compile Include="OneArgumentCalculators\Tan.cs" />
     <Compile Include="TwoArgumentCalculators\Adder.cs" />
     <Compile Include="OneArgumentCalculators\Cos.cs" />
     <Compile Include="TwoArgumentCalculators\Average.cs" />
+    <Compile Include="TwoArgumentCalculators\RootExtraction.cs" />
     <Compile Include="TwoArgumentCalculators\Divider.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
