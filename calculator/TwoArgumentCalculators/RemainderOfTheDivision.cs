@@ -1,4 +1,4 @@
-﻿namespace Calculator.TwoArgumentsOperations
+﻿namespace calculator.TwoArgumentCalculators
 {
     /// <summary>
     /// Count Remainder Of The Division
@@ -8,18 +8,18 @@
         /// <summary>
         /// Finding Remainder Of The Division
         /// </summary>
-        /// <param name="first">
+        /// <param name="firstValue">
         /// Value of the first parameter
         /// </param>
-        /// <param name="second">
+        /// <param name="secondValue">
         /// Value of the second parameter
         /// </param>
         /// <returns>
         /// Return Remainder Of The Division
         /// </returns>
-        public double Calculate(double first, double second)
+        public double Calculate(double firstValue, double secondValue)
         {
-            return first % second;
+            return firstValue % secondValue;
         }
     }
 }

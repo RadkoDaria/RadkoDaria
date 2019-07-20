@@ -51,9 +51,12 @@
     <Compile Include="OneArgumentCalculators\ArccosTest.cs" />
     <Compile Include="OneArgumentCalculators\ArcsinTest.cs" />
     <Compile Include="OneArgumentCalculators\CosTest.cs" />
+    <Compile Include="OneArgumentCalculators\CosTestCase.cs" />
     <Compile Include="OneArgumentCalculators\Degree2Test.cs" />
     <Compile Include="OneArgumentCalculators\ExpTest.cs" />
     <Compile Include="OneArgumentCalculators\LnTest.cs" />
+    <Compile Include="OneArgumentCalculators\LnTestCase.cs" />
+    <Compile Include="OneArgumentCalculators\Log10TestCase.cs" />
     <Compile Include="OneArgumentCalculators\Log10Test.cs" />
     <Compile Include="OneArgumentCalculators\Log2Test.cs" />
     <Compile Include="OneArgumentCalculators\SinTest.cs" />

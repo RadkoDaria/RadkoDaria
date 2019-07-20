@@ -81,6 +81,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgumentCalculators\Sin.cs" />
+    <Compile Include="TwoArgumentCalculators\RemainderOfTheDivision.cs" />
     <Compile Include="TwoArgumentCalculators\Subtracter.cs" />
     <Compile Include="TwoArgumentCalculators\TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
