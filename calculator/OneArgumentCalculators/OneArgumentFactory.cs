@@ -34,6 +34,8 @@ namespace calculator.OneArgumentCalculators
                     return new CTan();
                 case "Radians":
                     return new Radians();
+                case "TenDegreeX":
+                    return new TenDegreeX();
 
 
 

@@ -46,16 +46,17 @@
             this.Log10 = new System.Windows.Forms.Button();
             this.Degree2 = new System.Windows.Forms.Button();
             this.CTan = new System.Windows.Forms.Button();
-            this.RootExtraction = new System.Windows.Forms.Button();
+            this.Root = new System.Windows.Forms.Button();
             this.Radians = new System.Windows.Forms.Button();
             this.SquareRoot = new System.Windows.Forms.Button();
-            this.Average = new System.Windows.Forms.Button();
+            this.Aver = new System.Windows.Forms.Button();
             this.XExpY = new System.Windows.Forms.Button();
             this.GeoMean = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.rad = new System.Windows.Forms.Button();
+            this.TenDegreeX = new System.Windows.Forms.Button();
+            this.TwoPowerX = new System.Windows.Forms.Button();
+            this.Min = new System.Windows.Forms.Button();
+            this.Max = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputVar1
@@ -232,15 +233,15 @@
             this.CTan.UseVisualStyleBackColor = true;
             this.CTan.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // RootExtraction
+            // Root
             // 
-            this.RootExtraction.Location = new System.Drawing.Point(279, 156);
-            this.RootExtraction.Name = "RootExtraction";
-            this.RootExtraction.Size = new System.Drawing.Size(75, 23);
-            this.RootExtraction.TabIndex = 18;
-            this.RootExtraction.Text = "sqr";
-            this.RootExtraction.UseVisualStyleBackColor = true;
-            this.RootExtraction.Click += new System.EventHandler(this.CalculateClick);
+            this.Root.Location = new System.Drawing.Point(279, 156);
+            this.Root.Name = "Root";
+            this.Root.Size = new System.Drawing.Size(75, 23);
+            this.Root.TabIndex = 18;
+            this.Root.Text = "root";
+            this.Root.UseVisualStyleBackColor = true;
+            this.Root.Click += new System.EventHandler(this.CalculateClick);
             // 
             // Radians
             // 
@@ -260,15 +261,15 @@
             this.SquareRoot.Text = "sqrt";
             this.SquareRoot.UseVisualStyleBackColor = true;
             // 
-            // Average
+            // Aver
             // 
-            this.Average.Location = new System.Drawing.Point(198, 185);
-            this.Average.Name = "Average";
-            this.Average.Size = new System.Drawing.Size(75, 23);
-            this.Average.TabIndex = 21;
-            this.Average.Text = "aver";
-            this.Average.UseVisualStyleBackColor = true;
-            this.Average.Click += new System.EventHandler(this.CalculateClick);
+            this.Aver.Location = new System.Drawing.Point(198, 185);
+            this.Aver.Name = "Aver";
+            this.Aver.Size = new System.Drawing.Size(75, 23);
+            this.Aver.TabIndex = 21;
+            this.Aver.Text = "aver";
+            this.Aver.UseVisualStyleBackColor = true;
+            this.Aver.Click += new System.EventHandler(this.CalculateClick);
             // 
             // XExpY
             // 
@@ -290,57 +291,72 @@
             this.GeoMean.UseVisualStyleBackColor = true;
             this.GeoMean.Click += new System.EventHandler(this.CalculateClick);
             // 
-            // button1
+            // rad
             // 
-            this.button1.Location = new System.Drawing.Point(117, 214);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.rad.Location = new System.Drawing.Point(117, 214);
+            this.rad.Name = "rad";
+            this.rad.Size = new System.Drawing.Size(75, 23);
+            this.rad.TabIndex = 24;
+            this.rad.Text = "Radians";
+            this.rad.UseVisualStyleBackColor = true;
+            this.rad.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // button2
+            // TenDegreeX
             // 
-            this.button2.Location = new System.Drawing.Point(198, 214);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.TenDegreeX.Location = new System.Drawing.Point(198, 214);
+            this.TenDegreeX.Name = "TenDegreeX";
+            this.TenDegreeX.Size = new System.Drawing.Size(75, 23);
+            this.TenDegreeX.TabIndex = 25;
+            this.TenDegreeX.Text = "10^x";
+            this.TenDegreeX.UseVisualStyleBackColor = true;
+            this.TenDegreeX.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // button3
+            // TwoPowerX
             // 
-            this.button3.Location = new System.Drawing.Point(280, 214);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 26;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.TwoPowerX.Location = new System.Drawing.Point(280, 214);
+            this.TwoPowerX.Name = "TwoPowerX";
+            this.TwoPowerX.Size = new System.Drawing.Size(75, 23);
+            this.TwoPowerX.TabIndex = 26;
+            this.TwoPowerX.Text = "2^x";
+            this.TwoPowerX.UseVisualStyleBackColor = true;
+            this.TwoPowerX.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // button4
+            // Min
             // 
-            this.button4.Location = new System.Drawing.Point(36, 243);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 27;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Min.Location = new System.Drawing.Point(36, 243);
+            this.Min.Name = "Min";
+            this.Min.Size = new System.Drawing.Size(75, 23);
+            this.Min.TabIndex = 27;
+            this.Min.Text = "min";
+            this.Min.UseVisualStyleBackColor = true;
+            this.Min.Click += new System.EventHandler(this.CalculateClick);
+            // 
+            // Max
+            // 
+            this.Max.Location = new System.Drawing.Point(117, 243);
+            this.Max.Name = "Max";
+            this.Max.Size = new System.Drawing.Size(75, 23);
+            this.Max.TabIndex = 28;
+            this.Max.Text = "max";
+            this.Max.UseVisualStyleBackColor = true;
+            this.Max.Click += new System.EventHandler(this.CalculateClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Max);
+            this.Controls.Add(this.Min);
+            this.Controls.Add(this.TwoPowerX);
+            this.Controls.Add(this.TenDegreeX);
+            this.Controls.Add(this.rad);
             this.Controls.Add(this.GeoMean);
             this.Controls.Add(this.XExpY);
-            this.Controls.Add(this.Average);
+            this.Controls.Add(this.Aver);
             this.Controls.Add(this.SquareRoot);
             this.Controls.Add(this.Radians);
-            this.Controls.Add(this.RootExtraction);
+            this.Controls.Add(this.Root);
             this.Controls.Add(this.CTan);
             this.Controls.Add(this.Degree2);
             this.Controls.Add(this.Log10);
@@ -387,16 +403,17 @@
         private System.Windows.Forms.Button Log10;
         private System.Windows.Forms.Button Degree2;
         private System.Windows.Forms.Button CTan;
-        private System.Windows.Forms.Button RootExtraction;
+        private System.Windows.Forms.Button Root;
         private System.Windows.Forms.Button Radians;
         private System.Windows.Forms.Button SquareRoot;
-        private System.Windows.Forms.Button Average;
+        private System.Windows.Forms.Button Aver;
         private System.Windows.Forms.Button XExpY;
         private System.Windows.Forms.Button GeoMean;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button rad;
+        private System.Windows.Forms.Button TenDegreeX;
+        private System.Windows.Forms.Button TwoPowerX;
+        private System.Windows.Forms.Button Min;
+        private System.Windows.Forms.Button Max;
     }
 }
 

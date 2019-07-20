@@ -17,7 +17,7 @@ namespace calculator.TwoArgumentCalculators
                    return  new Multiplier();
                 case "div":
                     return  new Divider();
-                case "aver":
+                case "Average":
                     return new Average();
                 case "XExpY":
                     return new Exponentiation();
@@ -27,7 +27,7 @@ namespace calculator.TwoArgumentCalculators
                     return new Min();
                 case "Max":
                     return new Max();
-                case "sqr":
+                case "Root":
                     return new RootExtraction();
                 default: throw new Exception("Неопределенная операция");
             }

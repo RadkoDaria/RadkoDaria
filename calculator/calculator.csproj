@@ -55,6 +55,7 @@
     <Compile Include="OneArgumentCalculators\Log10.cs" />
     <Compile Include="OneArgumentCalculators\Log2.cs" />
     <Compile Include="OneArgumentCalculators\Radians.cs" />
+    <Compile Include="OneArgumentCalculators\SquareRoot.cs" />
     <Compile Include="OneArgumentCalculators\TenDegreeX.cs" />
     <Compile Include="OneArgumentCalculators\TwoPowerX.cs" />
     <Compile Include="OneArgumentCalculators\Tan.cs" />

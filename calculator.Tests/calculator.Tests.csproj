@@ -85,6 +85,7 @@
     <Compile Include="TwoArgumentCalculators\MinTestCase.cs" />
     <Compile Include="TwoArgumentCalculators\MultiplyerTest.cs" />
     <Compile Include="TwoArgumentCalculators\SubtracterTest.cs" />
+    <Compile Include="TwoArgumentCalculators\TwoArgumentFactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\calculator\calculator.csproj">
