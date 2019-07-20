@@ -1,8 +1,9 @@
 ﻿using System;
 
+
 namespace calculator.TwoArgumentCalculators
 {
-   public class TwoArgumentsFactory
+   public static class TwoArgumentsFactory
     {
         public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
@@ -13,9 +14,20 @@ namespace calculator.TwoArgumentCalculators
                 case "sub":
                     return new Subtracter();
                 case "mult":
-                   return  new Multiplyer();
+                   return  new Multiplier();
                 case "div":
                     return  new Divider();
+                case "aver":
+                    return new Average();
+                case "XExpY":
+                    return new Exponentiation();
+                case "GeoMean":
+                    return new GeometricMean();
+                case "Min":
+                    return new Min();
+                case "Max":
+                    return new Max();
+
                 default: throw new Exception("Неопределенная операция");
             }
         }

@@ -9,7 +9,7 @@ namespace calculator.Tests.TwoArgumentCalculatorsTest
         [Test]
         public void Calculate()
         {
-            Multiplyer calculator = new Multiplyer();
+            Multiplier calculator = new Multiplier();
             double result = calculator.Calculate(10, 5);
 
             Assert.AreEqual(50, result);

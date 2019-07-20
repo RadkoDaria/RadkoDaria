@@ -48,16 +48,21 @@
   <ItemGroup>
     <Compile Include="OneArgumentCalculators\Arccos.cs" />
     <Compile Include="OneArgumentCalculators\Arcsin.cs" />
+    <Compile Include="OneArgumentCalculators\CTan.cs" />
     <Compile Include="OneArgumentCalculators\Degree2.cs" />
     <Compile Include="OneArgumentCalculators\Exp.cs" />
     <Compile Include="OneArgumentCalculators\Ln.cs" />
     <Compile Include="OneArgumentCalculators\Log10.cs" />
     <Compile Include="OneArgumentCalculators\Log2.cs" />
+    <Compile Include="OneArgumentCalculators\Radians.cs" />
+    <Compile Include="OneArgumentCalculators\RootExtraction.cs" />
+    <Compile Include="OneArgumentCalculators\SquareRoot.cs" />
     <Compile Include="OneArgumentCalculators\TenDegreeX.cs" />
     <Compile Include="OneArgumentCalculators\TwoPowerX.cs" />
     <Compile Include="OneArgumentCalculators\Tan.cs" />
     <Compile Include="TwoArgumentCalculators\Adder.cs" />
     <Compile Include="OneArgumentCalculators\Cos.cs" />
+    <Compile Include="TwoArgumentCalculators\Average.cs" />
     <Compile Include="TwoArgumentCalculators\Divider.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -66,8 +71,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="OneArgumentCalculators\IOneArgumentCalculator.cs" />
+    <Compile Include="TwoArgumentCalculators\Exponentiation.cs" />
+    <Compile Include="TwoArgumentCalculators\GeometricMean.cs" />
     <Compile Include="TwoArgumentCalculators\ITwoArgumentsCalculator.cs" />
-    <Compile Include="TwoArgumentCalculators\Multiplyer.cs" />
+    <Compile Include="TwoArgumentCalculators\Max.cs" />
+    <Compile Include="TwoArgumentCalculators\Min.cs" />
+    <Compile Include="TwoArgumentCalculators\Multiplier.cs" />
     <Compile Include="OneArgumentCalculators\OneArgumentFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

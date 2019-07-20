@@ -1,6 +1,6 @@
 ﻿namespace calculator.TwoArgumentCalculators
 {
-    public class Multiplyer : ITwoArgumentsCalculator
+    public class Multiplier : ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

@@ -45,8 +45,13 @@
             this.Log2 = new System.Windows.Forms.Button();
             this.Log10 = new System.Windows.Forms.Button();
             this.Degree2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.CTan = new System.Windows.Forms.Button();
+            this.RootExtraction = new System.Windows.Forms.Button();
+            this.Radians = new System.Windows.Forms.Button();
+            this.SquareRoot = new System.Windows.Forms.Button();
+            this.Average = new System.Windows.Forms.Button();
+            this.XExpY = new System.Windows.Forms.Button();
+            this.GeoMean = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputVar1
@@ -155,7 +160,7 @@
             // 
             // Exp
             // 
-            this.Exp.Location = new System.Drawing.Point(279, 98);
+            this.Exp.Location = new System.Drawing.Point(198, 156);
             this.Exp.Name = "Exp";
             this.Exp.Size = new System.Drawing.Size(75, 23);
             this.Exp.TabIndex = 11;
@@ -213,31 +218,86 @@
             this.Degree2.UseVisualStyleBackColor = true;
             this.Degree2.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // button4
+            // CTan
             // 
-            this.button4.Location = new System.Drawing.Point(198, 156);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.CTan.Location = new System.Drawing.Point(280, 98);
+            this.CTan.Name = "CTan";
+            this.CTan.Size = new System.Drawing.Size(75, 23);
+            this.CTan.TabIndex = 17;
+            this.CTan.Text = "ctg";
+            this.CTan.UseVisualStyleBackColor = true;
+            this.CTan.Click += new System.EventHandler(this.Calculator2Click);
             // 
-            // button5
+            // RootExtraction
             // 
-            this.button5.Location = new System.Drawing.Point(279, 156);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 18;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.RootExtraction.Location = new System.Drawing.Point(279, 156);
+            this.RootExtraction.Name = "RootExtraction";
+            this.RootExtraction.Size = new System.Drawing.Size(75, 23);
+            this.RootExtraction.TabIndex = 18;
+            this.RootExtraction.Text = "sqr";
+            this.RootExtraction.UseVisualStyleBackColor = true;
+            this.RootExtraction.Click += new System.EventHandler(this.Calculator2Click);
+            // 
+            // Radians
+            // 
+            this.Radians.Location = new System.Drawing.Point(36, 185);
+            this.Radians.Name = "Radians";
+            this.Radians.Size = new System.Drawing.Size(75, 23);
+            this.Radians.TabIndex = 19;
+            this.Radians.Text = "rad";
+            this.Radians.UseVisualStyleBackColor = true;
+            // 
+            // SquareRoot
+            // 
+            this.SquareRoot.Location = new System.Drawing.Point(117, 185);
+            this.SquareRoot.Name = "SquareRoot";
+            this.SquareRoot.Size = new System.Drawing.Size(75, 23);
+            this.SquareRoot.TabIndex = 20;
+            this.SquareRoot.Text = "sqrt";
+            this.SquareRoot.UseVisualStyleBackColor = true;
+            // 
+            // Average
+            // 
+            this.Average.Location = new System.Drawing.Point(198, 185);
+            this.Average.Name = "Average";
+            this.Average.Size = new System.Drawing.Size(75, 23);
+            this.Average.TabIndex = 21;
+            this.Average.Text = "aver";
+            this.Average.UseVisualStyleBackColor = true;
+            this.Average.Click += new System.EventHandler(this.CalculateClick);
+            // 
+            // XExpY
+            // 
+            this.XExpY.Location = new System.Drawing.Point(280, 185);
+            this.XExpY.Name = "XExpY";
+            this.XExpY.Size = new System.Drawing.Size(75, 23);
+            this.XExpY.TabIndex = 22;
+            this.XExpY.Text = "XExpY";
+            this.XExpY.UseVisualStyleBackColor = true;
+            this.XExpY.Click += new System.EventHandler(this.CalculateClick);
+            // 
+            // GeoMean
+            // 
+            this.GeoMean.Location = new System.Drawing.Point(36, 214);
+            this.GeoMean.Name = "GeoMean";
+            this.GeoMean.Size = new System.Drawing.Size(75, 23);
+            this.GeoMean.TabIndex = 23;
+            this.GeoMean.Text = "gmean";
+            this.GeoMean.UseVisualStyleBackColor = true;
+            this.GeoMean.Click += new System.EventHandler(this.CalculateClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.GeoMean);
+            this.Controls.Add(this.XExpY);
+            this.Controls.Add(this.Average);
+            this.Controls.Add(this.SquareRoot);
+            this.Controls.Add(this.Radians);
+            this.Controls.Add(this.RootExtraction);
+            this.Controls.Add(this.CTan);
             this.Controls.Add(this.Degree2);
             this.Controls.Add(this.Log10);
             this.Controls.Add(this.Log2);
@@ -282,8 +342,13 @@
         private System.Windows.Forms.Button Log2;
         private System.Windows.Forms.Button Log10;
         private System.Windows.Forms.Button Degree2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button CTan;
+        private System.Windows.Forms.Button RootExtraction;
+        private System.Windows.Forms.Button Radians;
+        private System.Windows.Forms.Button SquareRoot;
+        private System.Windows.Forms.Button Average;
+        private System.Windows.Forms.Button XExpY;
+        private System.Windows.Forms.Button GeoMean;
     }
 }
 
