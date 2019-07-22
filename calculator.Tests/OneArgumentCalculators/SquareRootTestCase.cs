@@ -23,5 +23,11 @@ namespace calculator.Tests.OneArgumentCalculators
             Assert.AreEqual(expected, actualResult, 0.001);
 
         }
+        [Test]
+        public void ExceptionTest()
+        {
+            var calculator = new SquareRoot();
+            Assert.Throws<Exception>(() => calculator.Calculate(-2));
+        }
     }
 }
