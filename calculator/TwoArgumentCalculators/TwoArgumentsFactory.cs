@@ -2,8 +2,10 @@
 
 
 namespace calculator.TwoArgumentCalculators
-{
-   public static class TwoArgumentsFactory
+{/// <summary>
+ /// Factory for calculators for two argument
+ /// </summary>
+    public static class TwoArgumentsFactory
     {
         public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
