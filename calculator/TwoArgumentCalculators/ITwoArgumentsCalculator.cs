@@ -1,6 +1,8 @@
 ﻿namespace calculator.TwoArgumentCalculators
-{
-   public interface ITwoArgumentsCalculator
+{/// <summary>
+ /// Interface for calculators for two argument
+ /// </summary>
+    public interface ITwoArgumentsCalculator
     {
         double Calculate(double firstValue, double secondValue);
     }

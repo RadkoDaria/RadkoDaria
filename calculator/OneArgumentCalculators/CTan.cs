@@ -8,7 +8,7 @@ namespace calculator.OneArgumentCalculators
     /// </summary>
     public class CTan : IOneArgumentCalculator
     {
-        
+
 
         /// <summary>
         /// Finding CTan
@@ -17,7 +17,7 @@ namespace calculator.OneArgumentCalculators
         /// Value of the parameter
         /// </param>
         /// <returns>
-        /// CTan results
+        /// CTan results in radians
         /// </returns>
         public double Calculate(double firstValue)
         {
