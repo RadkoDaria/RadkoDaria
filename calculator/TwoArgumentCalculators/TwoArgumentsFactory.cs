@@ -2,9 +2,10 @@
 
 
 namespace calculator.TwoArgumentCalculators
-{/// <summary>
- /// Factory for calculators for two argument
- /// </summary>
+{
+    /// <summary>
+    /// Factory for calculators for two argument
+    /// </summary>
     public static class TwoArgumentsFactory
     {
         public static ITwoArgumentsCalculator CreateCalculator(string name)
@@ -16,9 +17,9 @@ namespace calculator.TwoArgumentCalculators
                 case "sub":
                     return new Subtracter();
                 case "mult":
-                   return  new Multiplier();
+                    return new Multiplier();
                 case "div":
-                    return  new Divider();
+                    return new Divider();
                 case "Average":
                     return new Average();
                 case "XExpY":

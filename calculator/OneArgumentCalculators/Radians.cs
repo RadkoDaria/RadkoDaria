@@ -1,5 +1,4 @@
 ﻿using System;
-using calculator.OneArgumentCalculators;
 
 namespace calculator.OneArgumentCalculators
 {

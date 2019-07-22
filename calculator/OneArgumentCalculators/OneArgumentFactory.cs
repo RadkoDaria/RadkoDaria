@@ -1,9 +1,10 @@
 ﻿using System;
 
 namespace calculator.OneArgumentCalculators
-{/// <summary>
- /// Factory for calculators for one argument
- /// </summary>
+{
+    /// <summary>
+    /// Factory for calculators for one argument
+    /// </summary>
     public static class OneArgumentFactory
     {
         public static IOneArgumentCalculator CreateCalculator(string name)

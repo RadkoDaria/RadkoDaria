@@ -1,5 +1,4 @@
 ﻿using System;
-using calculator.OneArgumentCalculators;
 
 namespace calculator.OneArgumentCalculators
 {
@@ -8,8 +7,6 @@ namespace calculator.OneArgumentCalculators
     /// </summary>
     public class CTan : IOneArgumentCalculator
     {
-
-
         /// <summary>
         /// Finding CTan
         /// </summary>

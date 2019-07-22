@@ -48,35 +48,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgumentCalculators\ArccosExeptionTest.cs" />
     <Compile Include="OneArgumentCalculators\ArccosTest.cs" />
-    <Compile Include="OneArgumentCalculators\ArccosTestCase.cs" />
-    <Compile Include="OneArgumentCalculators\ArcsinExeptionTest.cs" />
-    <Compile Include="OneArgumentCalculators\ArcsinTest.cs" />
-    <Compile Include="OneArgumentCalculators\ArcsinTestCase.cs" />
+    <Compile Include="OneArgumentCalculators\ArcsinTests.cs" />
     <Compile Include="OneArgumentCalculators\CTanTestCase.cs" />
     <Compile Include="OneArgumentCalculators\CosTest.cs" />
-    <Compile Include="OneArgumentCalculators\CosTestCase.cs" />
     <Compile Include="OneArgumentCalculators\Degree2Test.cs" />
-    <Compile Include="OneArgumentCalculators\Degree2TestCase.cs" />
     <Compile Include="OneArgumentCalculators\ExpTest.cs" />
-    <Compile Include="OneArgumentCalculators\ExpTestCase.cs" />
     <Compile Include="OneArgumentCalculators\LnTest.cs" />
-    <Compile Include="OneArgumentCalculators\LnTestCase.cs" />
-    <Compile Include="OneArgumentCalculators\Log10TestCase.cs" />
     <Compile Include="OneArgumentCalculators\Log10Test.cs" />
     <Compile Include="OneArgumentCalculators\Log2Test.cs" />
-    <Compile Include="OneArgumentCalculators\Log2TestCase.cs" />
     <Compile Include="OneArgumentCalculators\OneArgumentFactoryTest.cs" />
     <Compile Include="OneArgumentCalculators\RadiansTestCase.cs" />
     <Compile Include="OneArgumentCalculators\SinTest.cs" />
     <Compile Include="OneArgumentCalculators\SquareRootTestCase.cs" />
     <Compile Include="OneArgumentCalculators\TanTest.cs" />
-    <Compile Include="OneArgumentCalculators\TanTestCase.cs" />
     <Compile Include="OneArgumentCalculators\TenDegreeXTest.cs" />
-    <Compile Include="OneArgumentCalculators\TenDegreeXTestCase.cs" />
     <Compile Include="OneArgumentCalculators\TwoPowerXTest.cs" />
-    <Compile Include="OneArgumentCalculators\TwoPowerXTestCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentCalculators\AdderTest.cs" />
     <Compile Include="TwoArgumentCalculators\AverageTestCase.cs" />

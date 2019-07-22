@@ -5,15 +5,15 @@ namespace calculator.OneArgumentCalculators
     /// Count Log10
     /// </summary>
     public class Log10 : IOneArgumentCalculator
-    /// <summary>
-    /// Finding Log10
-    /// </summary>
-    /// <param name="firstValue">
-    /// </param>
-    /// <returns>
-    /// Result log10
-    /// </returns>
     {
+        /// <summary>
+        /// Finding Log10
+        /// </summary>
+        /// <param name="firstValue">
+        /// </param>
+        /// <returns>
+        /// Result log10
+        /// </returns>
         public double Calculate(double firstValue)
         {
             if (firstValue <= 0)

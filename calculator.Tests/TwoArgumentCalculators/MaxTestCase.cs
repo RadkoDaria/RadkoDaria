@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using calculator.TwoArgumentCalculators;
+﻿using calculator.TwoArgumentCalculators;
 using NUnit.Framework;
 
 namespace calculator.Tests.TwoArgumentCalculators

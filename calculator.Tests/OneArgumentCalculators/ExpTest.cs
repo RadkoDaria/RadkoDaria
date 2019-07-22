@@ -14,5 +14,18 @@ namespace calculator.Tests.OneArgumentCalculators
 
             Assert.AreEqual(1, result, 0.001);
         }
+        [TestCase(0, 1)]
+        [TestCase(1, 2.718)]
+        [TestCase(3, 20.085)]
+        public void CalculateTest(
+            double firstValue,
+            double expected)
+
+        {
+            var calculator = new Exp();
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult, 0.001);
+
+        }
     }
 }

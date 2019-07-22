@@ -19,13 +19,20 @@ namespace calculator
 
         private void CalculateClick(object sender, EventArgs e)
         {
-            double firstNumber = Convert.ToDouble(InputVar1.Text);
-            double secondNumber = Convert.ToDouble(InputVar2.Text);
+            try
+            {
+                double firstNumber = Convert.ToDouble(InputVar1.Text);
+                double secondNumber = Convert.ToDouble(InputVar2.Text);
 
-            var Calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = Calculator.Calculate(firstNumber, secondNumber);
+                var calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                double result = calculator.Calculate(firstNumber, secondNumber);
 
-            OutputVar.Text = result.ToString();
+                OutputVar.Text = result.ToString();
+            }
+            catch (Exception exc)
+            {
+
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -37,8 +44,8 @@ namespace calculator
         {
             double firstNumber = Convert.ToDouble(InputVar1.Text);
 
-            var Calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            double result = Calculator.Calculate(firstNumber);
+            var calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstNumber);
 
             OutputVar.Text = result.ToString();
         }
