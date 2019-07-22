@@ -48,8 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentCalculators\ArccosExeptionTest.cs" />
     <Compile Include="OneArgumentCalculators\ArccosTest.cs" />
     <Compile Include="OneArgumentCalculators\ArccosTestCase.cs" />
+    <Compile Include="OneArgumentCalculators\ArcsinExeptionTest.cs" />
     <Compile Include="OneArgumentCalculators\ArcsinTest.cs" />
     <Compile Include="OneArgumentCalculators\ArcsinTestCase.cs" />
     <Compile Include="OneArgumentCalculators\CTanTestCase.cs" />

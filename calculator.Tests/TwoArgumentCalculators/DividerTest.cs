@@ -1,4 +1,5 @@
-﻿using calculator.TwoArgumentCalculators;
+﻿using System;
+using calculator.TwoArgumentCalculators;
 using NUnit.Framework;
 
 namespace calculator.Tests.TwoArgumentCalculatorsTest
@@ -14,5 +15,13 @@ namespace calculator.Tests.TwoArgumentCalculatorsTest
 
             Assert.AreEqual(2, result);
         }
+
+        [Test]
+        public void ExceptionTest()
+        {
+            var calculator = new Divider();
+            Assert.Throws<Exception>(() => calculator.Calculate(3,0));
+        }
     }
+    
 }
